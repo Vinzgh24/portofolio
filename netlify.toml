@@ -1,0 +1,9 @@
+# The publish directory is set to the root
+[build]
+  publish = "."
+
+# Ensuring clean URLs
+[[redirects]]
+  from = "/*"
+  to = "/:splat"
+  status = 200
