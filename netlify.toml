@@ -5,7 +5,7 @@
 # Ensuring clean URLs
 
 [[redirects]]
-  from = "/index.html"
+  from = "index.html"
   to = "/"
   status = 200
   
